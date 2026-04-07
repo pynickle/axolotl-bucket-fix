@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "axolotl_bucket_fix",
+  "version": "${version}",
+  "name": "Axolotl Bucket Fix",
+  "description": "Buckets with different axolotl variants display distinct textures.",
+  "authors": [
+    "ENC_Euphony"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/axolotl_bucket_fix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.euphony.axolotl_bucket_fix.fabric.AxolotlBucketFixFabric"
+    ],
+    "client": [
+      "com.euphony.axolotl_bucket_fix.fabric.client.AxolotlBucketFixFabricClient"
+    ]
+  },
+  "mixins": [
+    "axolotl_bucket_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "~26.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

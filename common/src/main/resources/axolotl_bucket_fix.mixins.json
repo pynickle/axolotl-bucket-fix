@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.euphony.axolotl_bucket_fix.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "axolotl_bucket_fix"
+version = "${version}"
+displayName = "Axolotl Bucket Fix"
+authors = "ENC_Euphony"
+description = '''
+Buckets with different axolotl variants display distinct textures.
+'''
+logoFile = "icon.png"
+
+[[dependencies.axolotl_bucket_fix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.axolotl_bucket_fix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "axolotl_bucket_fix.mixins.json"
